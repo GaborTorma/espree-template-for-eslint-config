@@ -1,0 +1,112 @@
+{
+  "workbench.tree.expandMode": "singleClick",
+  "workbench.tree.indent": 10,
+  // Window color theme
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#293109",
+    "titleBar.activeBackground": "#39440C",
+    "titleBar.activeForeground": "#F8FCEC"
+  },
+  /* Editor settings and formater */
+  "editor.rulers": [
+    {
+      "column": 100,
+      "color": "#333"
+    },
+    {
+      "column": 120,
+      "color": "#555"
+    },
+    {
+      "column": 126,
+      "color": "#d44"
+    }
+  ],
+  // Enable the ESlint flat config support
+  "eslint.experimental.useFlatConfig": true,
+  // Disable the default formatter, use eslint instead
+  "prettier.enable": false,
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  // Auto fix
+  // "eslint.format.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "files.refactoring.autoSave": false,
+  "eslint.trace.server": "messages",
+  // Volar formatter
+  "html.format.wrapLineLength": 120,
+  /* "[javascript]": {
+    "editor.defaultFormatter": "Vue.volar",
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "Vue.volar",
+    "editor.formatOnSave": false
+  }, */
+  "html.format.wrapAttributes": "preserve",
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar",
+    "editor.formatOnSave": false
+  },
+  // Silent the stylistic rules in you IDE, but still auto fix them
+  "eslint.rules.customizations": [
+    {
+      "rule": "style/*",
+      "severity": "off"
+    },
+    {
+      "rule": "*-indent",
+      "severity": "off"
+    },
+    {
+      "rule": "*-spacing",
+      "severity": "off"
+    },
+    {
+      "rule": "*-spaces",
+      "severity": "off"
+    },
+    {
+      "rule": "*-order",
+      "severity": "off"
+    },
+    {
+      "rule": "*-dangle",
+      "severity": "off"
+    },
+    {
+      "rule": "*-newline",
+      "severity": "off"
+    },
+    {
+      "rule": "*quotes",
+      "severity": "off"
+    },
+    {
+      "rule": "*semi",
+      "severity": "off"
+    }
+  ],
+  // Enable eslint for all supported languages
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml"
+  ],
+  "i18n-ally.localesPaths": [
+    "locales",
+    "config/i18n"
+  ]
+}

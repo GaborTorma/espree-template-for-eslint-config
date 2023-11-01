@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": "./src",
+    "rootDir": ".",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "strictNullChecks": true,
+    "importHelpers": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src", "typings", "@antfu/eslint-config/typescript"]
+}
